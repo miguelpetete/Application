@@ -1,5 +1,6 @@
 package com.app.service;
 
-public class FilmServiceInterface {
-
+public interface FilmServiceInterface {
+	public String findByTitle(String title);
 }
+
